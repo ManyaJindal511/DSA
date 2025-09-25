@@ -7,21 +7,20 @@ It is organized topic-wise, covering problems from arrays to advanced topics lik
 
 ## 📂 Repository Structure
 
-Arrays/
-Backtracking/
-Graphs/
-Hash Maps/
-Heaps/
-Linked List/
-OOPS/
-Patterns/
-Pointer/
-Recursion/
-Stacks/
-String/
-Trees/
-.gitignore
-
+├── Arrays/
+├── Backtracking/
+├── Graphs/
+├── Hash Maps/
+├── Heaps/
+├── Linked List/
+├── OOPS/
+├── Patterns/
+├── Pointer/
+├── Recursion/
+├── Stacks/
+├── String/
+├── Trees/
+└── .gitignore
 
 - Each folder contains problems and solutions related to that topic.  
 
