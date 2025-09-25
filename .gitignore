@@ -1,0 +1,9 @@
+.vscode/
+
+dist/
+*.out
+*.exe
+*.class
+
+*.log
+*.tmp

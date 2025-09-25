@@ -1,0 +1,47 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+class Node{
+public:
+    int val;
+    Node* right;
+    Node* left;
+    Node(int val){
+        this->val=val;
+        this->right=NULL;
+        this->left=NULL;
+    }
+};
+void display(Node* root){
+    if(root==NULL) return ;
+    cout<<root->val<<" ";
+    display(root->right);
+    display(root->left);
+}
+int level(Node* root){
+    if(root==NULL) return 0;
+    return 1+max(level(root->right),level(root->left));
+}
+int height(Node* root){
+    if (root==NULL) return -1;
+    return 1+max(height(root->left),height(root->right));
+}
+int main(){
+    Node* a=new Node(1);
+    Node* b=new Node(2);
+    Node* c=new Node(3);
+    Node* d=new Node(4);
+    Node* e=new Node(5);
+    Node* f=new Node(6);
+    Node* g=new Node(7);
+    a->left=b;
+    a->right=c;
+    b->left=d;
+    b->right=e;
+    c->left=f;
+    c->right=g;
+    display(a);
+    cout<<endl;
+    cout<<level(a)<<endl;
+    cout<<height(a);
+}
