@@ -1,26 +1,26 @@
 # DSA Practice Repository
 
-This repository contains my **Data Structures and Algorithms (DSA)** practice solutions, written in **C++** and **Java**.  
+This repository contains my **Data Structures and Algorithms (DSA)** practice solutions, written in **C++**.  
 It is organized topic-wise, covering problems from arrays to advanced topics like graphs.  
 
 ---
 
 ## 📂 Repository Structure
 
-├── Arrays/
-├── Backtracking/
-├── Graphs/
-├── Hash Maps/
-├── Heaps/
-├── Linked List/
-├── OOPS/
-├── Patterns/
-├── Pointer/
-├── Recursion/
-├── Stacks/
-├── String/
-├── Trees/
-└── .gitignore
+Arrays/
+Backtracking/
+Graphs/
+Hash Maps/
+Heaps/
+Linked List/
+OOPS/
+Patterns/
+Pointer/
+Recursion/
+Stacks/
+String/
+Trees/
+.gitignore
 
 
 - Each folder contains problems and solutions related to that topic.  
