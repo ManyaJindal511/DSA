@@ -19,7 +19,7 @@ It is organized topic-wise, covering problems from arrays to advanced topics lik
 ---
 
 ## 🛠 Languages Used
-- **C++** (primary focus)  
+- **C++**
 ---
 
 ## 🎯 Goals
